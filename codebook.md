@@ -14,10 +14,10 @@ The following lines describe each variable, column number, type of data and rang
 
 1.subject 
   - Subjects that perform a set of activities	
-2. label  
--label of activities performed by the test and train subjects
+2.label  
+  - label of activities performed by the test and train subjects
 3. tbodyaccmeanx
--Average value for the measurements of the Mean of the Body Linear Jerk in the X direction in the Time domain for a given Subject doing a specific Activity
+  - Average value for the measurements of the Mean of the Body Linear Jerk in the X direction in the Time domain for a given Subject doing a specific Activity
 4. tbodyaccmeany
 -Average value for the measurements of the Mean of the Body Linear Jerk in the Y direction in the Time domain for a given Subject doing a specific Activity
 5. tbodyaccmeanz 
