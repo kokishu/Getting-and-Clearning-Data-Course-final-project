@@ -65,7 +65,7 @@ mall3<-select(mall2, -contains("meanfreq"))
 # find the mean of each combided of subject and labels
 agg<- aggregate(mall3[, 3:ncol(mall3)],by=list(subject = mall3$subject,label = mall2$label),mean)
 
-
+write.csv(agg, "tidydata.csv")
 write.table(format(agg, scientific=T), "tidy.txt",
             row.names=F, col.names=F, quote=2)
 
