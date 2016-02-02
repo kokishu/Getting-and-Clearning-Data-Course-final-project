@@ -2,11 +2,11 @@
 ## Human Activity Recognition Using Smartphones Data Set 
 ### Description:
   The file tidy.txt is a processed subset of the original Human Activity Recognition Using Smartphones Data Set produced by UCI Machine Learning repository. To complete the coursera project, these following steps are require 
--Merges the training and the test sets to create one data set.
--Extracts only the measurements on the mean and standard deviation for each measurement.
--Uses descriptive activity names to name the activities in the data set
--Appropriately labels the data set with descriptive variable names.
--From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+- Merges the training and the test sets to create one data set.
+- Extracts only the measurements on the mean and standard deviation for each measurement.
+- Uses descriptive activity names to name the activities in the data set
+- Appropriately labels the data set with descriptive variable names.
+- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The resulting tidy dataset contains 68 column.  First two columns, Columns 1 and Columns 2, are subject and activity.  From the third column to  68th column are the averaged information (per subject and activity) corresponding to the Mean and std of different meassurements for a total of 180 observations (30 subjects x 6 activities). These observations include meassurements in Time and Frequency of magnitude (Mag) and components in X,Y and Z direction for the linear acceleration (Acc), angular acceleration (Gyro), linear jerk (AccJerk) and angular jerk (GyroJerk) for both Body and Gravity components.
 For more information please read readme.md
