@@ -12,7 +12,7 @@ The resulting tidy dataset contains 68 column.  First two columns, Columns 1 and
 For more information please read readme.md
 The following lines describe each variable, column number, type of data and range of data for the tidy dataset file.
 1. subject 
--Subjects that perform a set of activities	
+  - Subjects that perform a set of activities	
 2. label  
 -label of activities performed by the test and train subjects
 3. tbodyaccmeanx
