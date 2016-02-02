@@ -1,6 +1,6 @@
-#Codebook
-##Human Activity Recognition Using Smartphones Data Set 
-###Description:
+# Codebook
+## Human Activity Recognition Using Smartphones Data Set 
+### Description:
   The file tidy.txt is a processed subset of the original Human Activity Recognition Using Smartphones Data Set produced by UCI Machine Learning repository. To complete the coursera project, these following steps are require 
 -Merges the training and the test sets to create one data set.
 -Extracts only the measurements on the mean and standard deviation for each measurement.
